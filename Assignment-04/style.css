@@ -1,0 +1,56 @@
+
+body{
+    padding: 10px;
+    background-color: rgb(245, 237, 227);
+}
+.title{
+    text-align: center;
+}
+.footer{
+    text-align: center;
+}
+.container{
+    display: flex;
+    margin: 40px;
+    padding: 10px;
+    flex-direction: row;
+    unicode-bidi: isolate;
+}
+article{
+    flex: 1;
+    margin: 20px;
+    background-color: rgb(222, 255, 255);
+    text-align: center;
+}
+author{
+    flex: 1;
+    margin: 20px;
+    background-color: rgb(222, 255, 255);
+    text-align: center;    
+}
+p{
+    display: block;
+    color: rgb(180, 180, 180);
+    text-align: justify;
+    margin: 10px;
+    font-weight: lighter;
+    font-style: italic;
+}
+img{
+    margin: 10px;
+    width: 20%;
+}
+h2{
+    margin: 10px;
+    background-color: #f5f5dc;
+    font-size: x-large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+a:link{
+    color: rgb(180, 180, 180);
+    font-weight: bold;
+}
+a:visited{
+    color: rgb(180, 180, 180);
+    font-weight: bold;
+}
