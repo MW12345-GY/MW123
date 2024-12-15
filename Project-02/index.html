@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Close-Up Shots of Eyes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="sidebar">
+        <div class="header" onclick="showOverview()">
+            <h1>Close-up Shots of Eyes </h1>
+        </div>
+        <div class="icon">
+            <img src="Photo/eyes icon.jpg" alt="icon" class="icon">
+        </div>
+        <div class="creator">
+            <p>Web creator: Hongxiang Wang</p>
+        </div>
+        <div class="category">
+            <h2>Categorized by emotions</h2>
+        </div>
+            <ul class="emotion-buttons">
+                <li onclick="showImages('confusion')">Confusion</li>
+                <li onclick="showImages('joy')">Joy</li>
+                <li onclick="showImages('sadness')">Sadness</li>
+                <li onclick="showImages('thrill')">Thrill</li>
+                <li onclick="showImages('anger')">Anger</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="main-content" id="main-content">
+        <div id="overview">
+            <h1>What is a Close-Up?</h1>
+            <img src="Photo/Close-up intro.jpg" alt="intro" class="main-image">
+            <p>A close-up is a commonly used shot in film photography, <b>typically focusing on a character's face or other details
+            (such as hands, objects, etc.)
+            to highlight emotions, details, or emphasize specific information. </b>By narrowing the shooting range,
+            a close-up directs the audience's attention to particular emotional expressions or key details. 
+            Close-up shots of the eyes, in particular, are especially captivating to me, 
+            <b>as they not only convey emotions most directly but also serve as a significant test of the actor's performance.</b></p>
+        </div>
+        <div id="image-gallery" class="image-gallery" style="display: none;"></div>
+    </div>
+
+
+    <script src="main.js"></script>
+</body>
+</html>
